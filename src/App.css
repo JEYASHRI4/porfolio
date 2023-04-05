@@ -36,3 +36,48 @@
     transform: rotate(360deg);
   }
 }
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 1000px;
+ padding-left: 0px;
+}
+.about{
+  background-color:lavenderblush;
+  border-radius: 50px;
+  
+}
+.home{
+  padding-top: 150px;
+  background: rgb(238,174,202);
+  background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(211,202,219,1) 44%, rgba(196,180,217,1) 47%, rgba(195,179,232,1) 51%, rgba(185,182,221,1) 59%, rgba(148,187,233,1) 100%);
+}
+#img2{
+  transform: translate(500px,-450px);
+}
+
+.form{
+  margin-top: 10px;
+margin-bottom: 10px;
+margin-left: 10px;
+margin-right: 10p;
+border: 1px solid black;
+background-image: url("https://static.vecteezy.com/system/resources/previews/004/968/002/original/cute-abstract-modern-background-free-vector.jpg");
+}
+#div2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 1000px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration:2s;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:800px; top:0px;}
+  50%  {background-color:blue; left:800px; top:400px;}
+  75%  {background-color:green; left:0px; top:400px;}
+  100% {background-color:red; left:0px; top:0px;}
+}

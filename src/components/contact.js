@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Footer from "./footer";
 export default function Contact() {
   const handlesubmit = () =>{
     alert('Thanks For contacting myself');
@@ -18,6 +18,8 @@ export default function Contact() {
     <br></br>
     <button type='button' onClick={()=>handlesubmit()}>SUBMIT</button>
     </form>
+    <Footer></Footer>
+
     </div>
   )
 }
